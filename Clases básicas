@@ -4,4 +4,6 @@ class Persona:
         self.edad = edad
     
     def saludar(self):
-        # debe devolver "Hola, soy <nombre> y tengo <edad> años"
+        print(f"Hola mi nombre es {self.nombre} y tengo {self.edad} años")
+persona1 = Persona("Ana", 30)
+persona1.saludar()
