@@ -1,0 +1,9 @@
+class Vehiculo:
+    def __init__(self, marca, modelo):
+        self.marca = marca
+        self.modelo = modelo
+    def info(self):
+        return f"Marca: {self.marca} y modelo {self.modelo}"
+
+class carro(Vehiculo):
+def __init__
